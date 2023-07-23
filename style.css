@@ -1,0 +1,97 @@
+body{
+    background-image: linear-gradient(hsl(273, 75%, 66%),hsl(240, 73%, 65%) );
+    background-repeat: no-repeat ;
+}
+.container{
+    width: 100%;
+    /* background-image: linear-gradient(hsl(273, 75%, 66%),hsl(240, 73%, 65%) ); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 100vh;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+.card{
+    background-color: white;
+    /* width: fit-content; */
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    padding: 60px, 60px 0 0;
+    height: 70%;
+    border-radius: 30px;
+}
+.img1{
+    position: absolute;
+    right:1020px;
+    bottom: 250px;
+
+}
+.img2{
+    position: absolute;
+    right:1020px;
+    bottom: 20px;
+}
+.for-image{
+    padding-right: 80px;
+    margin-top: 40px;
+}
+.content{
+    padding-right: 80px;
+    padding-top: 80px;
+    margin-left: 300px;
+    width: 100%;
+    
+}
+#f2, #s2, #t2, #fourth2, #fif2{
+    visibility: hidden;
+    display: none;
+    /* font-weight: ; */
+}
+.img3{
+    position: relative;
+    top: 35%;
+    right: 65%;
+}
+.cls {
+    transform: scaleY(-1);
+}
+.cls2{
+    transform: scaleY(1);
+}
+/* .arrow{
+    transform: none;
+} */
+.para{
+    font-size: 12px;
+    color: hsl(240, 6%, 50%);
+}
+#f1, #s1, #t1, #fourth1, #fif1{
+    font-size: 15px;
+}
+.head{
+    font-size: 29px;
+    margin-bottom: 30px;
+    color: hsl(237, 12%, 33%);
+    font-weight: 700;
+}
+.first, .second, .third ,.fourth, .fifth{
+    margin: 10px;
+    padding: 8px;
+    border-bottom: .3px solid hsl(237, 12%, 33%);
+    position: relative;
+}
+.arrow{
+    position: absolute;
+    right: 19px;
+    top: 15px;
+}
+.list{
+    cursor: pointer;
+}
+/* .list:hover{
+    color:hsl(14, 88%, 65%);
+} */
+
+
